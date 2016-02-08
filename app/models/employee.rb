@@ -1,6 +1,6 @@
 class Employee < ActiveRecord::Base
 	#Validates Employee Basic Information
-	validates :employee_id, presence: true
+	validates :employee_id, presence: true, uniqueness: true
 	validates :name, presence: true
 	validates :gender, presence: true
 	validates :birthdate, format: { with: /(?<month>\d{1,2})\/(?<day>\d{1,2})\/(?<year>\d{4})/,
@@ -8,20 +8,20 @@ class Employee < ActiveRecord::Base
 
 	#Validates Employee Address Information
 	validates :address1, presence: true
-	validates :address2, length: { minimum: 2 }, allow_blank: true
+	validates :address2, length: { in: 1..20 }, allow_blank: true
 	validates :city, presence: true
-	validates :state, length: { minimum: 2 }
+	validates :state, length: { is: 2 }
 	validates :postal, length: { minimum: 5 }
 
 	#Validates Phone Information
-	validates :phone_type, presence: true
+	validates :phone_type, inclusion: ['cell', 'work', 'fax']
 	validates :phone_number, format: { with: /\A(?:(?:\+?1\s*(?:[.-]\s*)?)?(?:\(\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9])\s*\)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\s*(?:[.-]\s*)?)?([2-9]1[02-9]|[2-9][02-9]1|[2-9][02-9]{2})\s*(?:[.-]\s*)?([0-9]{4})(?:\s*(?:#|x\.?|ext\.?|extension)\s*(\d+))?\z/ }
 
 end
 
 
 
-#LINE 6 AND 18, HOW TO FORMAT ANY INPUT INTO XX/XX/XXXX AND (XXX) XXX-XXXX FORMAT?
+#LINE 6 AND 18, HOW TO FORMAT ANY INPUT INTO XX/XX/XXXX AND (XXX) XXX-XXXX FORMAT FOR WHEN EXPORTED TO .CSV?
 #SHOULD PHONE_NUMBER BE A STRING?
 #SET ADDRESS2 TO BE OKAY WITH HAVING A BLANK INPUT.
 
