@@ -1,6 +1,6 @@
 ##Aura-Interview:
 
-	This is an interview assignment to create a database where a client can store an employee's information. Fields it should include:
+This is an interview assignment to create a database where a client can store an employee's information. Fields it should include:
 
 	*Employee ID
 	*Name
@@ -14,7 +14,7 @@
 	*Phone Type (Cell/Work/Fax)
 	*Phone Number
 
-	The second portion of this assignment is to be able to create a 'program' to output all of the information from the database, into a single .CSV file. The following items should be displayed:
+The second portion of this assignment is to be able to create a 'program' to output all of the information from the database, into a single .CSV file. The following items should be displayed:
 
 	*Employee ID
 	*Name
@@ -25,7 +25,7 @@
 
 ##Testing:
 
-	To test my code, some pre-requisites need to be established and steps necessary.
+To test my code, some pre-requisites need to be established and steps necessary.
 
 	1.) Use of a Mac.
 	2.) Have Ruby installed.
