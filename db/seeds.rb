@@ -1,5 +1,3 @@
-# Code to populate the database ...
-
 kunal_details = { :employee_id    => 1,
                   :name => "Kunal Mahajan",
                   :gender     => "male",
@@ -10,7 +8,6 @@ kunal_details = { :employee_id    => 1,
                   :postal => 60201,
                   :phone_type => "cell",
                   :phone_number => "6309730594" }
-
 
 kunal = Employee.new(kunal_details)
 kunal.save
@@ -27,7 +24,6 @@ vaishali_details = { :employee_id    => 2,
                   :postal => 60201,
                   :phone_type => "cell",
                   :phone_number => "224-227-3210" }
-
-
+                  
 vaishali = Employee.new(vaishali_details)
 vaishali.save
