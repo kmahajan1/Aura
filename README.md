@@ -12,11 +12,11 @@ The second portion of this assignment is to be able to create a 'program' to out
 -PHONE NUMBER
 
 ##Testing:
-To test my code, some pre-requisites and steps are necessary.
+To test my code, some pre-requisites need to be established and steps necessary.
 1.) Use of a Mac.
 2.) Have Ruby installed.
 3.) Ensure necessary gems are installed, verify by (terminal>navigate to this folder directory>type: bundle install).
-3.) Type the following commands:
+3.) Type the following commands in terminal (assuming you're in the correct 'Aura' directory):
 	be rake db:create			#creates database
 	be rake db:migrate			#creates database tables
 	be rake db:seed				#populates database tables with seed information

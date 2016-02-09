@@ -1,29 +1,29 @@
-kunal_details = { :employee_id    => 1,
-                  :name => "Kunal Mahajan",
-                  :gender     => "male",
+emp1_details = { :employee_id    => 1,
+                  :name => "Bob",
+                  :gender     => "Male",
                   :birthdate  => "07/09/1983",
                   :address1 => "123 New St",
                   :city => "Evanston",
                   :state => "IL",
                   :postal => 60201,
-                  :phone_type => "cell",
-                  :phone_number => "6309730594" }
+                  :phone_type => "Cell",
+                  :phone_number => "(098) 765-4321" }
 
-kunal = Employee.new(kunal_details)
-kunal.save
+emp1 = Employee.new(emp1_details)
+emp1.save
 
 
-vaishali_details = { :employee_id    => 2,
-                  :name => "Vaishali Mahajan",
-                  :gender     => "female",
+emp2_details = { :employee_id    => 2,
+                  :name => "Bobbi",
+                  :gender     => "Female",
                   :birthdate  => "01/24/1983",
                   :address1 => "123 New St",
-                  :address2 => "Apt. #608",
+                  :address2 => "Apt. #111",
                   :city => "Evanston",
                   :state => "IL",
                   :postal => 60201,
-                  :phone_type => "cell",
-                  :phone_number => "224-227-3210" }
-                  
-vaishali = Employee.new(vaishali_details)
-vaishali.save
+                  :phone_type => "Work",
+                  :phone_number => "(123) 456-7890" }
+
+emp2 = Employee.new(emp2_details)
+emp2.save
