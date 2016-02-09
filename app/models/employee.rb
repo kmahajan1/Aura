@@ -22,7 +22,7 @@ class Employee < ActiveRecord::Base
 
 	def self.create_csv
 		CSV.open("Employees.csv", "wb") do |csv|
-			csv << ["employee_id", "name", "gender", "city", "phone_type", "phone_number"]
+			csv << ["Employee ID:", "Name:", "Gender:", "City:", "Phone Type:", "Phone Number:"]
 			Employee.all.each do |employee|
 				csv << employee.csv_data
 			end
