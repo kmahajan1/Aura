@@ -26,7 +26,7 @@ vaishali_details = { :employee_id    => 2,
                   :state => "IL",
                   :postal => 60201,
                   :phone_type => "cell",
-                  :phone_number => "2242273210" }
+                  :phone_number => "224-227-3210" }
 
 
 vaishali = Employee.new(vaishali_details)
