@@ -37,5 +37,5 @@ To test my code, some pre-requisites need to be established and steps necessary.
 	*be rake db:migrate			#creates database tables
 	*be rake db:seed			#populates database tables with seed information
 	*be rake console			#starts the console
-		Employee.create_csv     #this will create an 'Employees.csv' file in the current (Aura) directory, outputting the assignment's required fields.
+		Employee.create_csv     #creates an 'Employees.csv' file in the current (Aura) directory, w/ said required fields.
 
