@@ -1,6 +1,6 @@
 ##Aura Business Solutions
 ####Interview Assignment(s):####
-
+**Note: This work is completed in Ruby w/ the ActiveRecord (ORM) library**
 
 Part 1: Create a database where a client can store an employee's information. Fields it should include:
 
@@ -36,6 +36,6 @@ To test my code, some pre-requisites need to be established and steps necessary.
 	*be rake db:create			#creates database
 	*be rake db:migrate			#creates database tables
 	*be rake db:seed			#populates database tables with seed information
-	*be rake console			#starts the console
+	*be rake console			#starts an IRB session
 		Employee.create_csv     #creates an 'Employees.csv' file in the current (Aura) directory, w/ required fields.
 
