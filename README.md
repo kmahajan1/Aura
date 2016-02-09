@@ -1,4 +1,4 @@
-##| Aura Business Solutions |
+	<center>##| Aura Business Solutions |## </center>
 ####Interview Assignment(s):####
 **Note: This work is completed in Ruby w/ the ActiveRecord (ORM) library.**
 
