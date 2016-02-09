@@ -1,6 +1,7 @@
-##Aura Business Solutions
+##| Aura Business Solutions |
 ####Interview Assignment(s):####
-**Note: This work is completed in Ruby w/ the ActiveRecord (ORM) library**
+**Note: This work is completed in Ruby w/ the ActiveRecord (ORM) library.**
+
 
 Part 1: Create a database where a client can store an employee's information. Fields it should include:
 
