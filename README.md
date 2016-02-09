@@ -1,6 +1,7 @@
 ##Aura-Interview Assignment(s):
+#Due: 02/09/16 @ 6:00pm
 
-The 1st portion of this assignment is to create a database where a client can store an employee's information. Fields it should include:
+Part 1: Create a database where a client can store an employee's information. Fields it should include:
 
 	*Employee ID
 	*Name
@@ -14,7 +15,7 @@ The 1st portion of this assignment is to create a database where a client can st
 	*Phone Type (Cell/Work/Fax)
 	*Phone Number
 
-The 2nd portion of this assignment is to be able to create a program to output all of the information from the aforementioned database, into a single .csv file. Fields it should include:
+Part 2: Create a program to output all of the information from the aforementioned database, into a single .csv file. Fields it should include:
 
 	*Employee ID
 	*Name
