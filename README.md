@@ -1,6 +1,6 @@
 ##Aura-Interview:
 
-This is an interview assignment to create a database where a client can store an employee's information. Fields it should include:
+The 1st portion of this assignment is to create a database where a client can store an employee's information. Fields it should include:
 
 	*Employee ID
 	*Name
@@ -14,7 +14,7 @@ This is an interview assignment to create a database where a client can store an
 	*Phone Type (Cell/Work/Fax)
 	*Phone Number
 
-The second portion of this assignment is to be able to create a 'program' to output all of the information from the database, into a single .CSV file. The following items should be displayed:
+The 2nd portion of this assignment is to be able to create a program to output all of the information from the aforementioned database, into a single .csv file. Fields it should include:
 
 	*Employee ID
 	*Name
@@ -29,7 +29,7 @@ To test my code, some pre-requisites need to be established and steps necessary.
 
 	1.) Use of a Mac.
 	2.) Have Ruby installed.
-	3.) Ensure necessary gems are installed, verify by (terminal>navigate to this folder directory>type: bundle install).
+	3.) Ensure necessary gems are installed (terminal>navigate to this 'Aura' directory>bundle install).
 	3.) Type the following commands in terminal (assuming you're in the correct 'Aura' directory):
 	*be rake db:create			#creates database
 	*be rake db:migrate			#creates database tables
