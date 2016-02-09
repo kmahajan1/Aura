@@ -1,5 +1,5 @@
-##Aura-Interview Assignment(s):
-######Due By: 02/09/16 @ 6:00pm######
+##Aura Business Solutions
+####Interview Assignment(s):####
 
 
 Part 1: Create a database where a client can store an employee's information. Fields it should include:
