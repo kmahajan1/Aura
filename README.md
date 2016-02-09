@@ -1,4 +1,4 @@
-##Aura-Interview:
+##Aura-Interview Assignment(s):
 
 The 1st portion of this assignment is to create a database where a client can store an employee's information. Fields it should include:
 
@@ -23,7 +23,7 @@ The 2nd portion of this assignment is to be able to create a program to output a
 	*Phone Type
 	*Phone Number
 
-##Testing:
+##Testing Kunal's Code:
 
 To test my code, some pre-requisites need to be established and steps necessary.
 
