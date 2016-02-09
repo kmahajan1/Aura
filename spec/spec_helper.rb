@@ -1,5 +1,5 @@
-# Set variable so that we connect
-# to the test database.
+#Set variable so that we connect
+#to the test database.
 ENV['AR_ENV'] = 'test'
 
 require_relative '../config/environment'
